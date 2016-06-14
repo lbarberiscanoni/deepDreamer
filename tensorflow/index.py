@@ -21,4 +21,5 @@ print photos_to_transform
 print len(photos_to_transform)
 
 for photo in photos_to_transform:
-	transform_photo(photo)
+    print photo
+    transform_photo(photo)
